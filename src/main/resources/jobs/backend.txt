@@ -1,0 +1,29 @@
+Get to know our team: 
+
+In Agoda’s Back End Engineering department, we build scalable, fault-tolerant systems and APIs that host our core business logic. Our systems cover all major areas of our business: inventory and pricing, product information, customer data, communications, partner data, booking systems, payments, and more. These mission-critical systems change frequently with dozens of releases per day, so we must employ state-of-the-art CI/CD and testing techniques to ensure everything works without downtime. We also ensure that our systems are self-healing, responding gracefully to extreme loads or unexpected input. In order to accomplish this, we use state-of-the-art languages like Scala and C#, data technologies like Kafka and Spark, and agile development practices. Most importantly, though, we hire great people from around the world and empower them to succeed. Whether building new projects like Flights and Packages or reimagining our existing business, you’ll make a big impact as part of the Back End Engineering team. 
+
+The opportunity:
+
+You will be part of a team of experienced software developers to help integrate with more partners and/or improve existing integrations. We seek a motivated and skilled Contract Software Developer to join our dynamic team for 6 months. The ideal candidate will have a strong sense of ownership through a bachelor’s degree with coding boot camps or self-taught experiences. We value practical experience and a passion for programming, so having personal Git projects is a definite plus. We encourage you to share your portfolios to showcase your pet project that you built during your boot camp.
+
+This role is a 12-month contract based in Bangkok, Thailand, and the candidate who succeeds will be assigned to the projects.
+
+In this role, you’ll get to: 
+
+Develop and maintain high-quality software solutions in alignment with project requirements.
+Collaborate with cross-functional teams to understand requirements and technical designs.
+Troubleshoot, debug, and upgrade existing systems.
+Write clean, scalable, and efficient code.
+Participate in code reviews and contribute to best practices and coding standards.
+Stay up-to-date with emerging technologies and industry trends.
+What you’ll need to succeed:
+
+Fresh graduates are welcome to apply. Preferably less than two years of experience
+Bachelor’s degree in any stream with coding experience or completing a software engineering-related BootCamp
+Strong written and verbal communication skills in English with great problem-solving skills and attention to detail
+Proficient in one or more programming languages (e.g., Python, JavaScript, Java, C#, or similar)
+Proficient in Databases and SQL queries
+Experience with version control systems, preferably Git.
+It’s great if you have:
+
+Passion for crafting software and improving your knowledge and skills.

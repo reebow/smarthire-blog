@@ -1,0 +1,33 @@
+Get to Know our Team: 
+
+The Front-End Department builds the Agoda web and app products. We have several teams in front-end focusing on different aspects of our products including accommodations, flights, payments, marketing, post-booking services, and more. Agoda’s marketplace is the world. We build localized and optimized user experiences at scale on every major internet platform. These include our mobile websites, native apps, and desktop sites. We hire people from around the world who have a passion for using technology to create and implement the best user experiences. Our teams work on the full stack and build end-to-end systems including user interfaces, APIs, backend systems, and database systems. Our products are always evolving and under experimentation. We accomplish this by having an amazing degree of automation, CI/CD systems, and use a modularized approach. As we are data driven and measure our results, we continually innovate and improve our work. We are looking for the next great talent who strives to learn and grow and has a standard of excellence, strong sense of ownership, and great technical skills.
+
+The Opportunity:
+
+You will be working as a part of an agile team as a full stack engineer, you will get to experience various parts of Agoda systems that handle millions of users every day, ranging from frontend (both Web and App platforms) to backend including data and infrastructure.
+
+This role is a 12-month contract based in Bangkok, Thailand, and the candidate who succeeds will be assigned to the projects.
+
+In this role, you’ll get to: 
+
+Be part of an agile product team that do hypothesis driven development.
+Visualizing product usage using data in Hadoop.
+Use A/B Testing and make product related decisions based on data.
+Develop User Interfaces with our frontend technology (React / Redux / Typescript).
+Contribute to Agoda mobile apps using advanced architectures and test methodologies.
+Develop RESTful / GraphQL APIs (C# / Scala).
+Create real-time monitoring for the production system you have built.
+What you’ll need to succeed:
+
+Fresh graduates are welcome to apply. Preferably less than two years of experience
+Bachelor’s degree in any stream with coding experience or completing a software engineering-related BootCamp
+Strong written and verbal communication skills in English with great problem-solving skills and attention to detail
+Understanding of basic data structures and algorithms.
+Coding skill in any language e.g. Java, C#, JavaScript, Python, Swift, Kotlin.
+Able to understand and communicate ideas clearly with team members.
+It’s great if you have:
+
+Experience in any form of data persistence (RDBMSs, NoSQL).
+Some understanding of modern frontend or mobile technology e.g. React, Vue, Angular, Flutter, Native iOS and Android Apps.
+Experience with automated CI/CD systems, test driven development, clean software architectures and SOLID principals.
+GitHub profile especially contributing to open source projects.

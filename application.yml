@@ -1,0 +1,27 @@
+spring:
+  datasource: 
+    url: jdbc:postgresql://localhost:5432/smarthire
+    username: YOUR_USER
+    password: YOUR_PASSWORD
+  ai:
+    vertex:
+      ai:
+        gemini:
+          project-id: YOUR_PROJECT_ID
+          location: asia-southeast1
+          chat:
+            options:
+              model: gemini-1.5-pro-002
+        embedding: 
+          project-id: YOUR_PROJECT_ID
+          location: asia-southeast1
+          text:
+            options:
+              model: text-embedding-005  
+    vectorstore:
+      pgvector:
+        schema-name: smarthire
+        initialize-schema: true
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 768
