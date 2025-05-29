@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smarthire-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: smarthire-app
+  template:
+    metadata:
+      labels:
+        app: smarthire-app
+    spec:
+      containers:
+        - name: smarthire-app
+          image: smarthire:v1
+          imagePullPolicy: IfNotPresent 
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATASOURCE_URL
+              value: jdbc:postgresql://postgres:5432/smarthire
+            - name: SPRING_DATASOURCE_USERNAME
+              value: YOUR_USER
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: YOUR_PASSWORD
+            - name: GOOGLE_APPLICATION_CREDENTIALS
+              value: /etc/gcp-auth/key.json
+          volumeMounts:
+            - name: gcp-sa-key
+              mountPath: /etc/gcp-auth
+              readOnly: true
+      volumes:
+      - name: gcp-sa-key
+        secret:
+          secretName: gcp-sa-key
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: smarthire-app
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 8090
+      targetPort: 8080
+  selector:
+    app: smarthire-app

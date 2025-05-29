@@ -1,0 +1,23 @@
+spring:
+  ai:
+    vertex:
+      ai:
+        gemini:
+          project-id: smarthire-459608
+          location: us-central1
+          chat:
+            options:
+              model: gemini-2.0-flash-001
+        embedding: 
+          project-id: smarthire-459608
+          location: us-central1
+          text:
+            options:
+              model: text-embedding-005
+    vectorstore:
+      pgvector:
+        schema-name: smarthire
+        initialize-schema: true
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 768
